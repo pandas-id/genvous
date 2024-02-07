@@ -11,5 +11,6 @@ playAudio.addEventListener('click', () => {
 })
 
 bukaUndangan.addEventListener('click', () => {
-    audio.play()
+  audio.play()
 })
+audio.play()
