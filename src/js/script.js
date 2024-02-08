@@ -13,4 +13,7 @@ playAudio.addEventListener('click', () => {
 bukaUndangan.addEventListener('click', () => {
   audio.play()
 })
-audio.play()
+
+window.onbeforeunload = () => {
+  window.scrollTo(0, 0);
+}
